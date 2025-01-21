@@ -1,0 +1,15 @@
+<form action="https://formspree.io/f/mwkaopog" method="POST">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="package">Wähl dein Paket:</label>
+  <select id="package" name="package">
+    <option value="starter">Starter</option>
+    <option value="pro">Pro</option>
+  </select>
+
+  <button type="submit">Bestellen</button>
+</form>
